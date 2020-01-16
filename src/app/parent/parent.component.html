@@ -1,0 +1,5 @@
+<p>
+    Hello {{fullName}}
+    <app-child [fullName]="fullName" (nameEmitter)="handleNameEvent($event)"></app-child>
+
+</p>
